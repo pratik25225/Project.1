@@ -17,8 +17,11 @@ Pearson Correlation (r): Measures the linear relationship between duration and u
 Line by line Explanation
 
 import pandas as pd
+
 import matplotlib.pyplot as plt
+
 df = pd.read_csv("/content/data_usage.csv.txt")
+
 df
 
 Lines 1-2: We import pandas for handling the table and pyplot for the graphing.
